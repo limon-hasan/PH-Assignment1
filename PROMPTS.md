@@ -1,0 +1,5 @@
+Prompt 1 (Ideation): "I am building a landing page for DevConf 2026, a massive software engineering conference. I need a unique idea for a custom section. Instead of a standard FAQ, suggest a highly engaging, creative section that appeals to undergraduate software engineering students and algorithmic problem solvers."
+
+Prompt 2 (Code Generation): "Act as an expert frontend developer. Write the HTML and CSS for a 'CP & Hackathon Arena' section for my conference website. Requirements: A dark, sleek gradient background to contrast with my light Pricing section, a flexbox layout highlighting a $10k prize pool, and reuse my existing .btn-primary class for the call-to-action. Ensure the CSS uses modern standard practices like rem/px sizing and clean class names without relying on external libraries."
+
+Prompt 3 (Coding the Chat): "Write the HTML and CSS for a 'Dev Lounge' section. Design it to look like a modern real-time chat app UI using flexbox. Include dummy chat bubbles (left/right aligned) of attendees looking for hackathon teammates."
