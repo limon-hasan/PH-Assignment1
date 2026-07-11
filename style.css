@@ -69,8 +69,11 @@ ul {
 .nav-links {
     display: flex;
     gap: 30px; 
+    justify-content: center;
+    align-items: center;
 }
-/* .nav-links {
+/* Not needed now -->
+.nav-links {
     font-size: 15px;
     color: #4b5563; 
     font-weight: 600;
@@ -86,3 +89,5 @@ ul {
 .nav-links a:hover {
     color: #1d4ed8; 
 }
+
+
