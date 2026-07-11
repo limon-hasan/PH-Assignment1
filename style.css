@@ -319,7 +319,9 @@ ul {
     border: 1.5px solid black;
     text-align: center;
 }
-.btn-outline-dark:hover { background-color: #f3f4f6; }
+.btn-outline-dark:hover { 
+    background-color: #f3f4f6; 
+}
 
 .pricing-card .btn {
     width: 100%;
