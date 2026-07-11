@@ -327,3 +327,94 @@ ul {
     width: 100%;
     box-sizing: border-box;
 }
+
+
+
+/* =========================================
+   HACKATHON ARENA SECTION (AI CHALLENGE)
+   ========================================= */
+.hackathon {
+    padding: 100px 20px;
+    /* A sleek, dark purple-to-blue gradient background */
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); 
+    color: #ffffff;
+    text-align: center;
+}
+
+.hackathon-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* The small "Live Event" pill badge */
+.badge {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid rgba(59, 130, 246, 0.5);
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.hackathon h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.hackathon-description {
+    font-size: 18px;
+    color: #94a3b8; /* Dimmer text for readability */
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+/* Flexbox to spread the 3 highlights out evenly */
+.hackathon-highlights {
+    display: flex;
+    justify-content: space-around; /* Puts equal space between all items */
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* Allows them to stack on small mobile screens */
+    gap: 30px;
+}
+
+.highlight-item {
+    background: rgba(255, 255, 255, 0.05); /* Very faint white background */
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 200px;
+}
+
+.highlight-item .icon {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.highlight-item h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.highlight-item p {
+    color: #94a3b8;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Just making the button slightly bigger for this massive section */
+.btn-large {
+    padding: 16px 32px;
+    font-size: 18px;
+}
