@@ -31,6 +31,7 @@ ul {
 .btn-primary {
     background-color: #1d4ed8; 
     color: #ffffff;
+    text-align: center;
 }
 
 .btn-primary:hover {
@@ -194,3 +195,133 @@ ul {
     color: #6b7280;
 }
 
+
+
+/* Price section*/
+.pricing {
+    padding: 100px 20px;
+    background-color: #f8fafc;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-header .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card.pro-card {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.plan-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+}
+.plan-name1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: lightskyblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 10px 0 5px 0;
+}
+.pro-card .price { 
+    color: #ffffff; 
+}
+
+.billing { 
+    font-size: 14px; 
+    color: #6b7280;
+}
+.pro-card .billing { 
+    color: #94a3b8; 
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 25px 0;
+}
+.pro-card hr { 
+    border-top: 1px solid #334155; 
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.features li {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #4b5563;
+    display: flex;
+    align-items: center;
+}
+.pro-card .features li { 
+    color: #cbd5e1; 
+}
+
+.features li::before {
+    content: "•";
+    color: #3b82f6;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+    text-align: center;
+}
+.btn-outline-primary:hover { 
+    background-color: #eff6ff; 
+}
+
+.btn-outline-dark {
+    background-color: transparent;
+    color: #111827;
+    border: 1.5px solid black;
+    text-align: center;
+}
+.btn-outline-dark:hover { background-color: #f3f4f6; }
+
+.pricing-card .btn {
+    width: 100%;
+    box-sizing: border-box;
+}
